@@ -22,10 +22,6 @@ class Vertex {
         return new Vertex($x, $y, $y);
     }
 
-    /**
-     * @param Coordinate $coordinate
-     * @return Coordinate
-     */
     public function getVertexMin(Vertex $vertex)
     {
         $x = ($this->x < $vertex->getX()) ? $this->x : $vertex->getX();

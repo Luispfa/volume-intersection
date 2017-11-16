@@ -6,7 +6,7 @@ use AppBundle\Figures\Vertex;
 use AppBundle\Interfaces\CubeInterface;
 use AppBundle\Interfaces\VolumeIntersectionInterface;
 
-class Cube extends Vertex implements CubeInterface, VolumeIntersectionInterface {
+class Cube implements CubeInterface, VolumeIntersectionInterface {
 
     private $edge;
     private $vertex;
